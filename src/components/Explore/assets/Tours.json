@@ -1,0 +1,19 @@
+[
+  {
+    "price": "25",
+    "name": "samarqand",
+    "description": "samarqand_p",
+    "img": "Samarqand.jpg"
+  },
+  {
+    "price": "50",
+    "name": "turkiya",
+    "description": "turkiya_p",
+    "img": "turkia.jpg"
+  },{
+    "price": "100",
+    "name": "dubai",
+    "description": "dubai_p",
+    "img": "dubai.jpg"
+  }
+]
