@@ -25,8 +25,6 @@ const BuyForm = (props) => {
   function handleForm(e){
     setFormData( prevState => ({...prevState,[e.target.name]: e.target.value}))
   }
-  console.log(props.price);
-  console.log(formData);
 
   return (
     <div id="buy">
