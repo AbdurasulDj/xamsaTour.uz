@@ -1,19 +1,58 @@
 [
   {
     "price": "25",
+    "price_sum": "28949150",
     "name": "samarqand",
     "description": "samarqand_p",
     "img": "Samarqand.jpg"
   },
   {
-    "price": "50",
+    "price": "800",
+    "price_sum": "926372800",
     "name": "turkiya",
     "description": "turkiya_p",
     "img": "turkia.jpg"
   },{
-    "price": "100",
+    "price": "600",
+    "price_sum": "694779600",
     "name": "dubai",
     "description": "dubai_p",
     "img": "dubai.jpg"
+  },{
+    "price": "500",
+    "price_sum": "578983000",
+    "name": "egipt",
+    "description": "egipt_p",
+    "img": "egipt1.webp"
+  },{
+    "price": "900",
+    "price_sum": "1042169400",
+    "name": "maldives",
+    "description": "maldives_p",
+    "img": "maldives.webp"
+  },{
+    "price": "700",
+    "price_sum": "810576200",
+    "name": "azerbaijan",
+    "description": "azerbaijan_p",
+    "img": "azerbaijan.jpg"
+  },{
+    "price": "550",
+    "price_sum": "636881300",
+    "name": "georgiya",
+    "description": "georgiya_p",
+    "img": "georgia.webp"
+  },{
+    "price": "800",
+    "price_sum": "926372800",
+    "name": "malasia",
+    "description": "malasia_p",
+    "img": "malasia.jpg"
+  },{
+    "price": "700",
+    "price_sum": "810576200",
+    "name": "taiwan",
+    "description": "taiwan_p",
+    "img": "taiwan.jpg"
   }
 ]

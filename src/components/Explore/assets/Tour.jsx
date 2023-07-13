@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-// import ToursData from "./Tours.json";
 
 export default function Tour(props) {
   const { t } = useTranslation();
@@ -15,30 +14,24 @@ export default function Tour(props) {
             className="col-lg-4 col-md-6 wow fadeInUp"
             data-wow-delay="0.1s"
             key={tour.name}
+            style={{height: '100%'}}
           >
-            <div className="room-item shadow rounded overflow-hidden">
-              <div className="position-relative">
+            <div className="room-item shadow rounded overflow-hidden" >
+              <div className="position-relative" >
                 <img
                   className="img-fluid"
                   src={`./${tour.img}`}
-                  alt=""
+                  alt="tours img"
                 />
                 <small className="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">
-                  {tour.price}/{t(`day`)}
+                  {tour.price}$/{t(`day`)}
                 </small>
               </div>
               <div className="p-4 mt-2">
                 <div className="d-flex justify-content-between mb-3">
                   <h5 className="mb-0">{t(`${tour.name}`)}</h5>
-                  <div className="ps-2">
-                    <small className="fa fa-star text-primary"></small>
-                    <small className="fa fa-star text-primary"></small>
-                    <small className="fa fa-star text-primary"></small>
-                    <small className="fa fa-star text-primary"></small>
-                    <small className="fa fa-star text-primary"></small>
-                  </div>
                 </div>
-                <div className="d-flex mb-3">
+                <div className="d-flex mb-3" >
                   <small className="border-end me-3 pe-3">
                     <i className="fa fa-bed text-primary me-2"></i>
                     {t(`room`)}
@@ -52,11 +45,12 @@ export default function Tour(props) {
                     {t(`gid`)}
                   </small>
                 </div>
-                <p className="text-body mb-3">{t(`${tour.description}`)}</p>
+                <p className="text-body mb-3 " >{t(`${tour.description}`)}</p>
                 <div className="d-flex justify-content-between">
                   <a
                     className="btn btn-sm btn-primary rounded py-2 px-4"
-                    href=""
+                    href="#buy"
+                    onClick={()=>{props.setSelectedPrice(tour.price_sum)}}
                   >
                     {t(`buy`)}
                   </a>

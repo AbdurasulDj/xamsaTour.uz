@@ -46,18 +46,21 @@ function Footer(props) {
                 <a
                   className="btn btn-outline-light btn-social"
                   href="https://t.me/xamsa_tour"
+                  target="_blank"
                 >
                   <i className="fab fa-telegram"></i>
                 </a>
                 <a
                   className="btn btn-outline-light btn-social"
                   href="#"
+                  target="_blank"
                 >
                   <i className="fab fa-facebook-f"></i>
                 </a>
                 <a
                   className="btn btn-outline-light btn-social"
-                  href="#"
+                  href="https://instagram.com/xamsatour?igshid=MzRlODBiNWFlZA=="
+                  target="_blank"
                 >
                   <i className="fab fa-instagram"></i>
                 </a>

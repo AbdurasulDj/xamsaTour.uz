@@ -6,7 +6,7 @@ import Tour from "./assets/Tour";
 
 import "./Explore.css";
 
-function Explore() {
+function Explore(props) {
   const { t } = useTranslation();
   const [tours, setTours] = useState(() => ToursData);
 
@@ -28,6 +28,7 @@ function Explore() {
           </div>
           <div className="row g-4">
             <Tour
+              setSelectedPrice={props.setSelectedPrice}
               tours={tours}
               key={tours.key}
             />
